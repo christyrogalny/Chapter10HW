@@ -1,11 +1,3 @@
-
-## tables is the info for the instances
-## comparing if the id num's from table 2 match jimmy id num
-## if id matches up deduct it from his value
-## hard code the values on instances side
-## The calculations need to happen in the program file 
-## and not in the class definition file.
-
 import EmployeeClass as ec
 import PayrollDeductionClass as pd
 
@@ -17,9 +9,7 @@ def main():
     job = 'Developer'
     salary = '$6,800.00'
     
-
     print('Name: '+ name +'\n'+ 'ID Number: '+id_num +'\n'+'Department: '+dep +'\n'+'Job Title: '+ job +'\n'+'Monthly Salary: '+salary)
-
     print('\n')
     print('\n')
     employee_list = [name, id_num, dep, job, salary]
